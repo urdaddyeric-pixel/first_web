@@ -1,0 +1,209 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    color: rgb(63, 0, 209);
+    width: 70%;
+    margin-top: 1.5rem;
+      
+}
+.header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    flex: 1;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul li{
+    
+    list-style: none;
+
+}
+
+.header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+#home{
+
+    font-weight: bold;
+
+}
+
+#home:hover{
+
+color: darkmagenta
+
+}
+
+#download {
+
+    background-color: darkmagenta;
+    color: white; 
+    padding: 10px 30px;
+    border-radius: 20px;
+   
+
+
+}
+
+#download:hover{
+
+    background-color: white;
+    color: black;
+    border: 1px solid darkmagenta;
+    transition: 0.5s;
+
+}
+
+/*title section*/
+
+.main-section{
+    
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-section img {
+    width: 40rem;
+    height: 30rem;
+}
+
+h4{
+    background-color: bisque ;
+    padding: 10px 20px;
+    width: 25%;
+    color: sandybrown;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+
+
+p{
+    font-family: sans-serif;
+    margin-top: .5rem;
+    color: rgb(71, 71, 71);
+}
+
+button{
+    background-color: darkmagenta;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 20px;
+    border: darkmagenta;
+    font-size: 15px;
+    
+    
+}
+.btn-wrapper{
+    margin-top: 1.3rem;
+}
+
+button:hover{
+    background-color:rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: 0.5s;
+}
+
+#feature-sections{
+height: 80vh;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#feature-p{
+    width: 40rem;
+}
+
+#feature-h4{
+    width: 15rem;
+}
+
+.feature-wrapper{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-card{
+    margin-top: 2rem;
+    width: 25%;
+    text-align: center;
+}
+
+h5{
+    margin-top: 1.5rem;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.fa-solid{
+    font-size: 3rem;
+    color: grey;
+    padding: 0 .5rem;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+}
+
+.blackMode{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.aColor{
+    color: white;
+}
+
+.pColor{
+    color: white;
+}
+
+.h1Color{
+    color: white;
+}
